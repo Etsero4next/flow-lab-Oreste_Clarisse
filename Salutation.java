@@ -14,6 +14,7 @@ public class Salutation {
     System.out.println(saluer("Oreste", "fr"));
     System.out.println(saluer("John", "en"));
     System.out.println(saluer("Juan", "es"));
+    System.out.println(saluer("Emile", "es"));
   }
 
   static String saluer(String nom, String langue) {
