@@ -17,15 +17,15 @@ public class Salutation {
     System.out.println(saluer("Emile", "es"));
   }
 
-  static String saluer(String nom, String langue) {
-    if (langue.equals("fr")) {
-      return "Bonjour, " + nom + " !";
-    } else if (langue.equals("en")) {
-      return "Hello, " + nom + "!";
-    } else if (langue.equals("es")) {
-      return "Hola, " + nom + "!";
+static String saluer(String nom, String langue) {
+    if ("fr".equals(langue)) {
+        return "Bonjour, " + nom + " !";
+    } else if ("en".equals(langue)) {
+        return "Hello, " + nom + "!";
+    } else if ("es".equals(langue)) {
+        return "Hola, " + nom + "!";
     } else {
-      return "Hello, " + nom + "!";
+        return "Langue non prise en charge.";
     }
-  }
+}
 }
